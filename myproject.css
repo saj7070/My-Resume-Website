@@ -1,0 +1,273 @@
+@font-face {
+  font-family: sahel;
+  src: url(fonts/Sahel-Bold.woff);
+}
+@font-face {
+  font-family: roya;
+  src: url(fonts/B\ Roya_0.ttf);
+}
+
+body {
+  background-image: url("pic/back.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#pink-tamas {
+  background-image: url("pic/back2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#header {
+  color: rgb(2, 59, 13);
+  text-align: center;
+  font-size: 50px;
+  border: 20px;
+  border-style: solid;
+  max-width: 1120px;
+  margin: auto;
+  padding: 20px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  background-color: rgb(183, 240, 183);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#tamas-header {
+  color: rgb(77, 11, 68);
+  text-align: center;
+  font-size: 50px;
+  border: 20px;
+  border-style: solid;
+  max-width: 1120px;
+  margin: auto;
+  padding: 20px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  background-color: rgb(221, 179, 210);
+}
+.nav {
+  background-color: #333;
+  overflow: hidden;
+  font-family: sahel;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.nav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+#tamas-nav a.active {
+  background-color: #8f0e73;
+  color: white;
+}
+
+.nav a.active {
+  background-color: #127904;
+  color: white;
+}
+
+.intro {
+  direction: rtl;
+  font-family: sahel;
+  max-width: 1180px;
+  margin: auto;
+  padding-right: 20px;
+  color: rgb(27, 58, 9);
+}
+
+.in-intro {
+  direction: rtl;
+  font-family: roya;
+  font-size: 20px;
+  margin-top: 50px;
+  max-width: 1180px;
+  padding-right: 20px;
+}
+
+.img1 {
+  border-radius: 80px;
+  max-width: 320px;
+  max-height: 400px;
+  margin: auto;
+  margin-top: -260px;
+  margin-left: 40px;
+}
+
+.block {
+  border: 20px;
+  border-style: solid;
+  border-color: rgb(221, 238, 217);
+  background-color: rgb(221, 238, 217);
+  max-width: 1160px;
+  margin: auto;
+  border-radius: 5px;
+}
+
+.maharat-title {
+  direction: rtl;
+  font-family: sahel;
+  font-size: 18px;
+  padding-right: 20px;
+  background-color: rgb(166, 199, 199);
+  margin-left: 50%;
+  font-weight: bold;
+}
+
+.maharat-list {
+  direction: rtl;
+  font-family: roya;
+  font-size: 20px;
+  padding-right: 40px;
+  font-weight: bold;
+}
+
+.ability {
+  max-width: 400px;
+  max-height: 500px;
+  padding-left: 100px;
+  margin-top: -2000px;
+}
+
+.eftekhar-title {
+  direction: rtl;
+  font-family: sahel;
+  font-size: 18px;
+  padding-right: 20px;
+  background-color: rgb(103, 206, 206);
+  margin-left: 50%;
+  font-weight: bold;
+}
+
+.eftekhar-list {
+  direction: rtl;
+  font-family: roya;
+  font-size: 20px;
+  padding-right: 40px;
+  font-weight: bold;
+}
+
+.lamp {
+  max-width: 400px;
+  max-height: 500px;
+  padding-left: 30px;
+  margin-top: -1200px;
+}
+
+.footer {
+  max-width: 1200px;
+  margin: auto;
+  background-color: rgb(7, 88, 41);
+  color: white;
+  text-align: right;
+}
+.map {
+  max-width: 500px;
+  max-height: 300px;
+  margin-left: 50%;
+  padding: 30px;
+}
+
+.footer-title {
+  direction: rtl;
+  font-family: sahel;
+  padding-right: 600px;
+  margin-top: -300px;
+}
+
+.footer-list {
+  direction: rtl;
+  font-family: sahel;
+  font-size: 15px;
+  padding-right: 600px;
+  padding-bottom: 160px;
+}
+.tamas-footer {
+  max-width: 1200px;
+  margin: auto;
+  background-color: rgb(136, 19, 101);
+  color: white;
+  text-align: right;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 50%;
+  font-family: roya;
+  font-size: 19px;
+  text-align: right;
+  direction: rtl;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type="email"],
+select,
+textarea {
+  width: 50%;
+  font-family: roya;
+  text-align: right;
+  font-size: 19px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  font-family: roya;
+  font-size: 19px;
+  text-align: right;
+  direction: rtl;
+  background-color: #79346a;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #996e8c;
+}
+
+.container {
+  font-family: sahel;
+  border-radius: 5px;
+  text-align: right;
+  background-color: rgb(238, 217, 236);
+  padding: 20px;
+  max-width: 1160px;
+}
+
+#dokme {
+  text-align: center;
+  margin-right: 30%;
+}
+
+.phone {
+  max-width: 300px;
+  max-height: 400px;
+  padding-right: 790px;
+  margin-bottom: -350px;
+}

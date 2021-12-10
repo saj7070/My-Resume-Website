@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Resume of Seyed Ali Jafari</title>
+        <link rel="stylesheet" href="../myproject.css" />
+        <script src="../myproject.js"></script>
+    </head>
+
+    <body id="pink-tamas">
+        <h1 id="tamas-header">Resume of Seyed Ali Jafari</h1>
+        <div id="tamas-nav" class="nav" style="direction: rtl;">
+            <a class="active" href="../index.html" style="float: right;">معرفی </a>
+            <a href="maharat.html" style="float: right;" ;>مهارت و توانمندی ها</a>
+            <a href="eftekhar.html" style="float: right;">افتخارات</a>
+            <a href="tamas.html" style="float: right;">تماس با من</a>
+        </div>
+
+        <center>
+            <div class="container">
+                <h1 style="color: rgb(73, 9, 70);">در این قسمت می توانید پیام ها و نظرات خود را به من ارسال کنید</h1>
+                <img class="phone" src="../pic/phone.png" />
+
+                <form method="post">
+                    <input type="text" id="fname" name="firstname" placeholder="نام شما .." />
+                    <label style="margin-left: 74px;" for="fname">نام</label>
+                    <br />
+
+                    <input type="text" id="lname" name="lastname" placeholder="نام خانوادگی شما .." />
+                    <label style="margin-left: 10px;" for="lname">نام خانوادگی</label>
+                    <br />
+
+                    <input type="email" name="email" id="femail" placeholder="example@..." />
+                    <label style="margin-left: 58px;" for="email">ایمیل</label>
+                    <br />
+
+                    <label for="subject">صحبت شما با من</label>
+                    <br />
+                    <textarea style="margin-right: 100px;" id="subject" name="subject" placeholder="چیزی ینویسید ... " style="height: 200px;"></textarea>
+
+                    <br />
+                    <input onclick="payam()" id="dokme" type="submit" value="ثبت فرم" />
+                </form>
+            </div>
+        </center>
+
+        <div class="tamas-footer">
+            <iframe
+                class="map"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12959.680768283184!2d51.3517227!3d35.7035815!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x61a5a909b878501!2sSharif%20University%20of%20Technology!5e0!3m2!1sen!2s!4v1639129441984!5m2!1sen!2s"
+                width="600"
+                height="450"
+                style="border: 0;"
+                allowfullscreen=""
+                loading="lazy"
+            ></iframe>
+            <h3 class="footer-title">اطلاعات تماس با من :</h3>
+
+            <ul class="footer-list">
+                <li>ایمیل : <a style="color: beige;" href="mailto: s.a.jafari306@gmail.com">s.a.jafari306@gmail.com</a></li>
+                <li>سایت <a style="color: beige;" href="https://stackoverflow.com/users/17524853/saj">my stackoverflow</a> :stack overflow</li>
+                <li>سایت گیت هاب : <a style="color: beige;" href="https://github.com/saj7070">my github</a></li>
+                <li>شماره تماس : 09120000000</li>
+            </ul>
+        </div>
+    </body>
+</html>
